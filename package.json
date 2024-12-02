@@ -1,0 +1,31 @@
+{
+  "homepage": "https://justforkityo.github.io/SuperSlot",
+  "name": "super-slot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "compile": "hardhat compile",
+    "copy-artifacts": "node scripts/copyArtifacts.js",
+    "build": "npm run compile && npm run copy-artifacts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^20.14.11",
+    "hardhat": "^2.22.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "react-scripts": "^5.0.1"
+  }
+}
