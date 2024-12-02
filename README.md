@@ -33,7 +33,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/justforkityo/Super-Slot.git
+git clone https://github.com/Nitinjangir004/Super-slots
 
 Copy
 
